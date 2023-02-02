@@ -249,8 +249,8 @@ async def _(event):
                     await fifthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-✪ (@{username}) تم الصيد
-✪ By @BHthon - @bbqqqb 
+ (@{username}) تنح صدتلك يوزر
+ By @Q_y_2 - @S_Y_N
 
     ''')
                     break
@@ -308,8 +308,8 @@ async def _(event):
                         await fifthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-✪ (@{username}) تم الصيد
-✪ By @BHthon - @bbqqqb - @hhhh_xxx
+(@{username}) تنح صدتلك يوزر
+ By @Q_y_2 - @S_Y_N
 
     ''')
                         break
@@ -341,8 +341,8 @@ async def _(event):
                 await fifthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-✪ (@{username}) تم الصيد
-✪ By @BHthon - @bbqqqb - @hhhh_xxx
+(@{username}) تنح صدتلك يوزر
+ By @Q_y_2 - @S_Y_N
 
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
